@@ -1,5 +1,5 @@
-#ifndef LIBDAG_UTIL_EXPECT_HPP_INCLUDED
-#define LIBDAG_UTIL_EXPECT_HPP_INCLUDED
+#ifndef LIBDAG_IO_EXPECT_HPP_INCLUDED
+#define LIBDAG_IO_EXPECT_HPP_INCLUDED
 
 #include <libdag/io/get_char.hpp>
 #include <exception>

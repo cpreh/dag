@@ -1,5 +1,5 @@
-#ifndef LIBDAG_UTIL_GET_CHAR_HPP_INCLUDED
-#define LIBDAG_UTIL_GET_CHAR_HPP_INCLUDED
+#ifndef LIBDAG_IO_GET_CHAR_HPP_INCLUDED
+#define LIBDAG_IO_GET_CHAR_HPP_INCLUDED
 
 #include <istream>
 #include <stdexcept>

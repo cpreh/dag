@@ -1,9 +1,10 @@
-#ifndef LIBDAG_UTIL_XML_NEXT_TAG_CLOSES_HPP_INCLUDED
-#define LIBDAG_UTIL_XML_NEXT_TAG_CLOSES_HPP_INCLUDED
+#ifndef LIBDAG_XML_UTIL_NEXT_TAG_CLOSES_HPP_INCLUDED
+#define LIBDAG_XML_UTIL_NEXT_TAG_CLOSES_HPP_INCLUDED
 
 #include <libdag/io/expect.hpp>
 #include <libdag/io/get_char.hpp>
-#include <istream>
+#include <libdag/io/unget.hpp>
+#include <iosfwd>
 
 
 namespace libdag
@@ -30,9 +31,13 @@ next_tag_closes(
 		)
 	};
 
-	_stream.unget();
+	libdag::io::unget(
+		_stream
+	);
 
-	_stream.unget();
+	libdag::io::unget(
+		_stream
+	);
 
 	return
 		result
